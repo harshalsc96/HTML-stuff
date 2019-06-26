@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Register</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/index.css"></link>
+	<link rel="stylesheet" href="css/register.css"></link>
+	<script type="text/javascript" src="scripts/register.js"></script>
+	
+<body>
+<div id="top-bar">
+
+		<img id="logo" src="images/store.png">
+			<p id="text">E-COMMERCE</p>
+
+		<div class="top-bar-menu">
+		
+			<img id="top-bar-logo" src="images/product.png">
+				<a href="list.html">Our Products</a>
+
+		</div>
+
+		<div class="top-bar-menu">
+
+			<img id="top-bar-logo" src="images/lock.png">
+				<a href="login.html">Sign IN</a>
+
+		</div>
+
+		<div class="top-bar-menu">
+
+			<img id="top-bar-logo" src="images/registration.png">
+				<a href="register.html">Register</a>
+
+		</div>		
+		
+
+	</div>
+
+
+
+<h2 style="text-align: center">Registration From</h2>
+<form id="register-form" onsubmit="return validateForm();" action="register.php" method="POST">
+	<fieldset>
+			<label>User Name:</label><br>
+			<input  class="form-fields" type="text" id="username" name="username"><br>
+			<label>Email:</label><br>
+			<input  class="form-fields" type="text" id="email" name="email"><br>
+			<label>Password:</label><br>
+			<input  class="form-fields" type="password" id="password" name="password"><br>
+			<label>Confirm Password:</label><br>
+			<input  class="form-fields" type="password" id="cpassword" name="cpassword"><br>
+			<label>Date Of Birth:</label><br>
+			<input  class="form-fields" type="Date" name="date">
+			<h3>Source of information:</h3>
+			<input   type="checkbox" name="value" value="Social Media">From Social Media<br>
+			<input   type="checkbox" name="value" value="News">From News<br>
+			<input   type="checkbox" name="value" value="Friends">From Friends
+			<input  class="form-fields" type="submit" value="Submit">
+	</fieldset>
+</form>
+
+</body>
+
+</html>

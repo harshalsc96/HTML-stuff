@@ -1,0 +1,18 @@
+#top-bar h2{
+	font-size: 40px;
+	text-align: center;
+	color:white;
+	padding-top:20px;
+} 
+
+.images{
+	position: relative;
+	float:left;
+	width:33.33%;	
+	margin: 20px;
+	padding-bottom: 50px;
+}
+
+.clear{
+	clear:both;
+}

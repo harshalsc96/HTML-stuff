@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/index.css"></link>
+	<link rel="stylesheet" href="css/register.css"></link>	
+	<link rel="stylesheet" href="css/login.css"></link>
+	<script type="text/javascript" src="scripts/login.js"></script>
+</head>
+<body>
+<div id="top-bar">
+
+		<img id="logo" src="images/store.png">
+			<p id="text">E-COMMERCE</p>
+
+		<div class="top-bar-menu">
+		
+			<img id="top-bar-logo" src="images/product.png">
+				<a href="list.html">Our Products</a>
+
+		</div>
+
+		<div class="top-bar-menu">
+
+			<img id="top-bar-logo" src="images/lock.png">
+				<a href="login.html">Sign IN</a>
+
+		</div>
+
+		<div class="top-bar-menu">
+
+			<img id="top-bar-logo" src="images/registration.png">
+				<a href="register.html">Register</a>
+
+		</div>		
+		
+
+	</div>
+
+    <h2 style="text-align:center;">Login</h2>
+	<form id="register-form" onsubmit="return validateForm();" action="list.html" method="POST">
+	<fieldset>
+			<label>Email</label><br>
+			<input  class="form-fields" type="text" id="email" name="email"><br>
+			<label>Password:</label><br>
+			<input  class="form-fields" type="password" id="password" name="password"><br>
+			<input  class="form-fields" type="submit" value="Submit">
+			<label><a href="forgot.html">Forgot Password?</a><label>
+	</fieldset>
+</form>
+
+
+
+</body>
+</html>

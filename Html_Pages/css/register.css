@@ -1,0 +1,23 @@
+.form-fields{
+
+			margin:auto;
+			margin-top: 10px;
+			width:400px;
+			font-size: 20px;
+		}
+
+		#register-form{
+			margin:auto;
+			width:425px;
+			height: auto;
+		}
+		label{
+			padding-right: 30px;
+
+			font-size: 20px;
+		}
+		.checkbox-data{
+			font-size:20px;
+			float:right;
+		}
+		
